@@ -11,15 +11,17 @@ import Container from "./Container.astro"
     <Container>
         <div class="relative pt-36 ml-auto">
             <div class="lg:w-2/3 text-center mx-auto">
-                <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Shaping a world with <span class="text-primary dark:text-white">reimagination.</span></h1>
-                <p class="mt-8 text-gray-700 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt nam itaque sed eius modi error totam sit illum. Voluptas doloribus asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!</p>
+                <h1 class="text-gray-900 dark:text-white font-bold text-3xl md:text-6xl xl:text-7xl"> Cuida de lo que amas <span class="text-primary dark:text-white">desde cualquier lugar.</span></h1>
+                <p class="mt-8 text-lg text-gray-700 dark:text-gray-300">
+                  ¡Descubre los mejores servicios para tu mascota en un solo lugar! Nuestra app de geolocalización te conecta con veterinarios, peluquerías, paseadores y mucho más, todo cerca de ti. Encuentra opciones confiables y personalizadas para el cuidado de tus adorados animalitos. ¡Cuida a tu mascota como se merece con nuestra app!
+                </p>
                 <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
                     <a
                       href="#"
                       class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
                     >
                       <span class="relative text-base font-semibold text-white"
-                        >Get started</span
+                        >Entrar a la app</span
                       >
                     </a>
                     <a
@@ -28,45 +30,35 @@ import Container from "./Container.astro"
                     >
                       <span
                         class="relative text-base font-semibold text-primary dark:text-white"
-                        >Learn more</span
+                        >Saber más</span
                       >
                     </a>
                 </div>
-                <div class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
+                <div class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:grid grid-cols-3 items-center">
                     <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">The lowest price</h6>
-                        <p class="mt-2 text-gray-500">Some text here</p>
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Completamente gratis</h6>
+                        <p class="mt-2 text-gray-500">¡Gratis! Accede a servicios para mascotas sin costo alguno.
+                        </p>
                     </div>
                     <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">The fastest on the market</h6>
-                        <p class="mt-2 text-gray-500">Some text here</p>
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">La más intuitiva en el mercado</h6>
+                        <p class="mt-2 text-gray-500">Fácil, rápida e intuitiva. Encuentra lo que necesitas para tu mascota en segundos.
+                        </p>
                     </div>
                     <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">The most loved</h6>
-                        <p class="mt-2 text-gray-500">Some text here</p>
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">La más amada</h6>
+                        <p class="mt-2 text-gray-500">La más usada en tu localidad. Únete a la comunidad confiable y conectada de amantes de las mascotas.</p>
                     </div>
                 </div>
             </div>
-            <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
+            <div class="mt-12 flex flex-col items-center justify-center gap-10 mx-auto w-full md:flex-row md:gap-24">
                 <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/microsoft.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
-                  </div>
-                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                  <img src="./images/clients/airbnb.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
-                </div>
-                <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
-                  <img src="./images/clients/google.svg" class="h-9 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
+                    <img src="./images/clients/microsoft.svg" class="h-18 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
                 </div>
                 <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/ge.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
-                  </div>
-                  <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/netflix.svg" class="h-8 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
-                  </div>
-                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/google-cloud.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                    <img src="./images/clients/logoSena.svg" class="h-14 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
                 </div>
-              </div>
+            </div>
         </div>
     </Container>
 </div>
