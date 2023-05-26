@@ -1,0 +1,53 @@
+---
+import Container from "./Container.astro"
+import "./contact_us.css"
+---
+
+<div id="blog">
+  <Container>
+    <div class="content">
+      <div  class="tittle">
+        <h1 class="font-bold text-4xl" id="titulo">Contáctanos</h1>
+      </div>
+      <div class="contact-wraped ">
+        <div class="contact-form">
+          <form class="font-bold transition-all">
+            <p>
+              <label class="">Nombre</label><br>
+              <input type="text"><br><br>
+            </p>
+            <p>
+              <label>Apellido</label><br>
+            <input type="text"><br><br>
+            </p>
+            <p>
+              <label>Email</label><br>
+              <input type="email"><br><br>
+            </p>
+            <p>
+              <label>Telefono</label><br>
+              <input type="tel"><br><br>
+            </p>
+            <p class="block">
+              <label>Mensaje</label><br>
+              <textarea name="Mensaje" rows="3"></textarea><br><br>
+            </p>
+            <p class="block">
+              <button type="submit" class="transition-all bg-primary mx-auto">Enviar</button>
+            </p>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h4>Contactanos</h4>
+          <ul>
+            <li><i>Av 7 cll 3 #3048 Barrio comuneros, Cúcuta</i></li>
+            <li><i>314-354-2712</i></li>
+            <li><i>localpets@gmail.com</i></li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ratione esse officia illo repellendus cum assumenda. Reprehenderit corrupti ullam fugiat!</p>
+          <p>Company.com</p>
+        </div>
+      </div>
+    </div>
+  </Container>
+</div>
