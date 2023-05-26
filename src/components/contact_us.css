@@ -9,7 +9,7 @@ body{
 
 #titulo{
     padding: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -182,5 +182,9 @@ body{
       background: #e7e5fc;
       color: #334;
       
+    }
+
+    #titulo{
+        color:#101d36;
     }
   }
