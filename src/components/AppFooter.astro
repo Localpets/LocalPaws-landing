@@ -8,17 +8,16 @@ import Container from "./Container.astro";
       <div class="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12">
         <div class="flex flex-wrap items-center justify-between md:flex-nowrap">
           <div
-            class="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-start"
+            class="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-center"
           >
-            <ul class="list-inside list-disc space-y-8">  
-              <li><a href="#" class="transition hover:text-primary">About</a></li>
-              <li><a href="#" class="transition hover:text-primary">Contact</a></li>
-              <li><a href="#" class="transition hover:text-primary">Terms of Use</a></li>
+            <ul class="list-inside list-disc space-y-8 dark:text-white">  
+              <li><a href="#" class="transition hover:text-primary">Acerca de</a></li>
+              <li><a href="#" class="transition hover:text-primary">Contacto</a></li>
             </ul>
   
             <ul role="list" class="space-y-8">
               <li>
-                <a href="https://github.com/Localpets/localpets-landing-page" target="_blank" class="flex items-center space-x-3 transition hover:text-primary">
+                <a href="https://github.com/Localpets/localpets-landing-page" target="_blank" class="flex items-center space-x-3 transition hover:text-primary dark:text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -33,7 +32,7 @@ import Container from "./Container.astro";
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/Localpets__" target="_blank" class="flex items-center space-x-3 transition hover:text-primary">
+                <a href="https://twitter.com/Localpets__" target="_blank" class="flex items-center space-x-3 transition hover:text-primary dark:text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -52,15 +51,15 @@ import Container from "./Container.astro";
           <div
             class="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left"
           >
-            <span class="flex flex-col gap-10 justify-between text-gray-600 dark:text-white">
-              <a href="#" class="font-medium">Terms of Use </a>
-              <a href="#" class="font-medium"> Privacy Policy</a>
+            <span class="flex flex-col gap-8 justify-between text-gray-600 dark:text-white">
+              <li><a href="#" class="font-medium transition hover:text-primary">Términos de uso </a></li>
+              <li><a href="#" class="font-medium transition hover:text-primary"> Política de Privacidad</a></li>
             </span>
-            <span class="block text-gray-500 dark:text-gray-400"
-              >Need help? <a href="#" class="font-semibold text-gray-600 dark:text-white"> Contact Us</a></span
-            >
           </div>
+          
         </div>
+        <h2 class="text-center text-gray-600 dark:text-white pt-20"> <span class="text-primary">Localpets ©</span> Todos los derechos reservados.</h2>
       </div>
+      
     </Container>
 </footer>

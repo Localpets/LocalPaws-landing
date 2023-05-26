@@ -1,0 +1,91 @@
+---
+import Container from "./Container.astro"
+import "./contact_us.css"
+---
+
+<div id="blog">
+  <Container>
+    <div class="content">
+      <div  class="tittle">
+        <h1 class="font-bold text-4xl" id="titulo">Contáctanos</h1>
+      </div>
+      <section class="border-2 border-gray-100 dark:border-0 dark:bg-gray-800 rounded-xl">
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 text-black dark:text-white">
+          <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+            <div class="lg:col-span-2 lg:py-12">
+              <p class="max-w-xl text-lg">
+                At the same time, the fact that we are wholly owned and totally
+                independent from manufacturer and other group control gives you
+                confidence that we will only recommend what is right for you.
+              </p>
+
+              <div class="mt-8">
+                <a href="" class="text-2xl font-bold text-pink-600">
+                  316-0255551
+                </a>
+
+                <address class="mt-2 not-italic">
+                  Av. 7 #3-2, Barrio Comuneros, Cúcuta, Norte de Santander.
+                </address>
+              </div>
+            </div>
+
+            <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12 dark:bg-gray-800">
+              <form action="" class="space-y-4 dark:bg-gray-800 text-black dark:text-white">
+                <div>
+                  <label class="sr-only" for="name">Nombre Completo</label>
+                  <input
+                    class="w-full border-2 dark:border-0 rounded-lg border-gray-200 outline-offset-4 p-3 text-sm dark:bg-[#465A7E66]"
+                    placeholder="Nombre Completo"
+                    type="text"
+                    id="name"
+                  />
+                </div>
+
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  <div>
+                    <label class="sr-only" for="email">Email</label>
+                    <input
+                      class="w-full rounded-lg dark:border-0 border-2 border-gray-200 outline-offset-4 p-3 text-sm dark:bg-[#465A7E66]"
+                      placeholder="Dirección email"
+                      type="email"
+                      id="email"
+                    />
+                  </div>
+
+                  <div>
+                    <label class="sr-only" for="phone">Teléfono</label>
+                    <input
+                      class="w-full rounded-lg dark:border-0 border-2 border-gray-200 outline-offset-4 p-3 text-sm dark:bg-[#465A7E66]"
+                      placeholder="Teléfono"
+                      type="tel"
+                      id="phone"
+                    />
+                  </div>
+                </div>
+                  <label class="sr-only" for="message">Message</label>
+
+                  <textarea
+                    class="w-full rounded-lg dark:border-0 border-2 border-gray-200 outline-gray-600 outline-offset-4 p-3 text-sm dark:bg-[#465A7E66]"
+                    placeholder="Message"
+                    rows="8"
+                    id="message"
+                  ></textarea>
+                </div>
+
+                <div class="mt-4 flex justify-center">
+                  <button
+                    type="submit"
+                    class="inline-block w-full rounded-lg bg-primary px-10 py-3 font-medium text-white sm:w-auto hover:scale-105 transform transition-all duration-150 text-center"
+                  >
+                    Send Enquiry
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </Container>
+</div>

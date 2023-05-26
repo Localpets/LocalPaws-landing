@@ -6,14 +6,12 @@ import Container from "./Container.astro";
 <div id="solution">
     <Container>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-sky-500">
-        <path fill-rule="evenodd" d="M2.25 13.5a8.25 8.25 0 018.25-8.25.75.75 0 01.75.75v6.75H18a.75.75 0 01.75.75 8.25 8.25 0 01-16.5 0z" clip-rule="evenodd" />
-        <path fill-rule="evenodd" d="M12.75 3a.75.75 0 01.75-.75 8.25 8.25 0 018.25 8.25.75.75 0 01-.75.75h-7.5a.75.75 0 01-.75-.75V3z" clip-rule="evenodd" />
       </svg>
       
       <div class="space-y-6 justify-between text-gray-600 md:flex flex-row-reverse md:gap-6 md:space-y-0 lg:gap-12 lg:items-center">
         <div class="md:5/12 lg:w-1/2">
           <img
-            src="./images/pie.svg"
+            src="/images/icons/mockup2.png"
             alt="image"
             loading="lazy"
             width=""
@@ -22,13 +20,9 @@ import Container from "./Container.astro";
           />
         </div>
         <div class="md:7/12 lg:w-1/2">
-          <h2 class="text-3xl font-bold text-gray-900 md:text-4xl dark:text-white">
-            Nuxt development is carried out by passionate developers
+          <h2 class="text-3x1 font-bold text-gray-900 md:text-4xl dark:text-white">
+            Servicios de mascotas a tu disposición
           </h2>
-          <p class="my-8 text-gray-600 dark:text-gray-300">
-            Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
-            Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia. <br> <br> Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at reprehenderit aliquam a ipsum quas voluptatem. Quo pariatur asperiores eum amet.
-          </p>
           <div class="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
             <div class="mt-8 flex gap-4 md:items-center">
               <div class="w-12 h-12 flex gap-4 rounded-full bg-indigo-100 dark:bg-indigo-900/20">
@@ -37,8 +31,8 @@ import Container from "./Container.astro";
                 </svg>        
               </div>
               <div class="w-5/6">
-                <h3 class="font-semibold text-lg text-gray-700 dark:text-indigo-300">Chat Anytime</h3>
-                <p class="text-gray-500 dark:text-gray-400">Asperiores nemo possimus nesciunt quam mollitia.</p>
+                <h3 class="font-semibold text-lg text-gray-700 dark:text-indigo-300">Red Social</h3>
+                <p class="text-gray-500 dark:text-gray-400">Postea las fotos de tus hijos peludos y recibe interaccion entre los demás usuarios</p>
               </div> 
             </div> 
             <div class="pt-4 flex gap-4 md:items-center">
@@ -48,12 +42,22 @@ import Container from "./Container.astro";
                 </svg>                                      
               </div>
               <div class="w-5/6">
-                <h3 class="font-semibold text-lg text-gray-700 dark:text-teal-300">Real Time Location</h3>
-                <p class="text-gray-500 dark:text-gray-400">Asperiores nemo possimus nesciunt quam mollitia.</p>
+                <h3 class="font-semibold text-lg text-gray-700 dark:text-teal-300">Localización en Tiempo Real</h3>
+                <p class="text-gray-500 dark:text-gray-400">Veterinarias, Refugios animales y Tiendas de mascotas</p>
               </div> 
-            </div> 
+            </div>
+            <div class="pt-4 flex gap-4 md:items-center">
+              <div class="w-12 h-12 flex gap-4 rounded-full bg-teal-100 dark:bg-[#00FFFF]/20">  
+                <svg xmlns ="http://purl.org/dc/elements/1.1/" class="w-6 h-6 m-auto text-teal-600 dark:text-teal-400" xmlns="http://creativecommons.org/ns#" xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 14 14" id="svg2" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <metadata id="metadata8"> <rdf:rdf> <cc:work rdf:about=""> <dc:format>image/svg+xml</dc:format> <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type> <dc:title></dc:title> </cc:work> </rdf:rdf> </metadata> <defs id="defs6"></defs> <rect width="14" height="14" x="0" y="0" id="canvas" style="fill:none;stroke:none;visibility:hidden"></rect> <path d="M 9.412959,0.00215164 C 8.1693111,0.14587964 7.4631991,1.5093558 7.3733471,2.6936522 7.2264421,3.7464942 7.6860601,5.0899481 8.7918901,5.3320382 9.750208,5.4175142 10.512633,4.5171926 10.825819,3.6583651 11.195679,2.5833906 11.206482,1.147845 10.309038,0.34250684 10.059753,0.12647084 9.739671,-0.00476426 9.412959,0.00215164 z m -5.0729339,0.056367 c -1.034807,0.074858 -1.5652,1.27744256 -1.493223,2.24276386 0.0088,1.2907239 0.717612,2.7424122 2.010186,3.0488129 0.963956,0.1042448 1.606661,-0.9181087 1.66656,-1.812036 0.123011,-1.3680543 -0.483132,-3.02530546 -1.855765,-3.43834986 -0.106687,-0.029465 -0.217332,-0.044089 -0.327758,-0.041191 z M 12.655043,4.2036246 c -1.388365,0.1017608 -2.266355,1.5813816 -2.326691,2.9184062 -0.07305,0.8707439 0.489487,1.9657608 1.436683,1.9057498 C 13.181597,8.8776256 14.035636,7.298817 14.00043,5.9270567 13.99133,5.1373276 13.490879,4.2365389 12.655043,4.2036246 z M 0.01075614,6.0085263 c -0.12855096,1.481506 0.908149,3.1560203 2.41413596,3.2493013 0.912778,-0.06096 1.343188,-1.121093 1.238576,-1.9598358 C 3.5801081,6.0604403 2.7526501,4.7931558 1.6775691,4.6275979 0.60248914,4.4620399 -0.00628982,5.221568 0.01075614,6.0085263 z M 7.1593651,7.2723472 c -1.411887,0.00329 -2.70277,0.9264694 -3.392913,2.1755314 -0.578235,0.9334254 -1.050947,1.9901564 -1.140853,3.1053424 0.01967,0.860048 0.840276,1.575842 1.663122,1.404534 1.173683,-0.152345 2.222485,-0.967418 3.44297,-0.8147 1.014283,0.08097 1.8507729,0.867482 2.8748439,0.856051 0.994345,0.03734 1.56796,-1.102139 1.188753,-1.994632 C 11.387234,10.726579 10.596107,9.6151936 9.746977,8.6142466 9.069618,7.87643 8.1824521,7.2396817 7.1593651,7.2723472 z" id="pet" style="fill:#44ebee;fill-opacity:1;stroke:none"></path> </g> 
+                  
+                </svg>                                      
+              </div>
+              <div class="w-5/6">
+                <h3 class="font-semibold text-lg text-gray-700 dark:text-[#00FFFF]">Mascotas en Adopcion</h3>
+                <p class="text-gray-500 dark:text-gray-400">Postea mascotas para que puedan tener un hogar</p> 
           </div>
         </div>
       </div>
     </Container>
 </div>
+
