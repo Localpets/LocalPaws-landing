@@ -1,6 +1,5 @@
 ---
 import Container from "./Container.astro"
-
 ---
 
 <div class="relative py-16">
@@ -9,60 +8,27 @@ import Container from "./Container.astro"
     <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
   </div>
   <Container>
-    <div class="relative">
-      <div class="flex items-center justify-center -space-x-2">
-        <img
-          loading="lazy"
-          width="400"
-          height="400"
-          src="./images/avatars/avatar.webp"
-          alt="member photo"
-          class="h-8 w-8 rounded-full object-cover"
-        />
-        <img
-          loading="lazy"
-          width="200"
-          height="200"
-          src="./images/avatars/avatar-2.webp"
-          alt="member photo"
-          class="h-12 w-12 rounded-full object-cover"
-        />
-        <img
-          loading="lazy"
-          width="200"
-          height="200"
-          src="./images/avatars/avatar-3.webp"
-          alt="member photo"
-          class="z-10 h-16 w-16 rounded-full object-cover"
-        />
-        <img
-          loading="lazy"
-          width="200"
-          height="200"
-          src="./images/avatars/avatar-4.webp"
-          alt="member photo"
-          class="relative h-12 w-12 rounded-full object-cover"
-        />
-        <img
-          loading="lazy"
-          width="200"
-          height="200"
-          src="./images/avatars/avatar-1.webp"
-          alt="member photo"
-          class="h-8 w-8 rounded-full object-cover"
-        />
+    <div class="">
+       <h1 class=" text-2xl font-bold  text-gray-700 dark:text-white md:text-5xl text-center w-full h-full p-12  ">Explora un Mundo de Cuidado Animal</h1>
+      <div class=" flex flex-wrap flex-row-reverse flex-row items-center lg:flex-nowrap text-left md:justify-center  ">
+          <div id="divvideo " class=" m-8 " >
+            <video class="rounded"  width="560" height="315" controls autoplay>
+              <source src="\public\videos\#Neeko Mexican Dance.mp4" type="video/mp4" >
+                Tu navegador no soporta el elemento de video.
+            </video>
+          </div>
+          <p class=" w-max[400px] w-[400px]  flex  text-center text-xl text-gray-600 dark:text-gray-300 lg:tex-left ">
+            ¡Bienvenido a LocalPaws, tu brújula para descubrir el mejor cuidado para tus fieles amigos! Con nuestro mapa interactivo,donde 
+            podrás encontrar rápidamente refugios, veterinarias y tiendas especializadas en el bienestar animal mas cercanas a tu ubicación. 
+            Explora un mundo de opciones para tus mascotas y empieza una aventura de cuidado y amor.
+          </p>
       </div>
-      <div class="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
-        <h1 class="text-center text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">Acerca de nosotros</h1>
-        <p class="text-center text-xl text-gray-600 dark:text-gray-300">
-          Se parte de millones de usuarios por todo el mundo.
-        </p>
-        <div class="flex flex-wrap justify-center gap-6">
+        <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
           <a
               href="#"
               class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
             >
-              <span class="relative text-base font-semibold text-white dark:text-dark"
+              <span class="relative justify-center text-base font-semibold text-white dark:text-dark"
                 >Ir a la app</span
               >
             </a>
@@ -71,8 +37,8 @@ import Container from "./Container.astro"
               class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
             >
               <span
-                class="relative text-base font-semibold text-primary dark:text-white"
-                >Contacto</span
+                class="relative text-base font-semibold text-primary dark:text-white justify-center"
+                >Sign up</span
               >
           </a>
         </div>
